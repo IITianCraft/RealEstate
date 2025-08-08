@@ -109,6 +109,9 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOWED_ORIGINS = [
     "https://real-estate-mu-khaki-85.vercel.app",
+    "https://real-estate-mu-khaki-85.vercel.app/api",
+    "https://realestate-y7kg.onrender.com",
+    "https://realestate-y7kg.onrender.com/api",
     # "http://localhost:3000",
 ]
 AUTH_USER_MODEL = 'users.CustomUser'
