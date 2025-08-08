@@ -17,7 +17,8 @@ const ListingGrid = ({ listings }) => {
             image={
               listing.images?.[0]?.image?.startsWith("http")
                 ? listing.images[0].image
-                : `http://localhost:8000${listing.images?.[0]?.image || ""}`
+                // : `http://localhost:8000${listing.images?.[0]?.image || ""}`
+                : `https://realestate-y7kg.onrender.com${listing.images?.[0]?.image || ""}`
             }
           />
         ))}
